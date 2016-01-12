@@ -1,0 +1,21 @@
+{
+    "name": "vad/yii2-",
+    "description": "profiler response procesing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "vad",
+            "email": "vad@vad.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vad\\profiler\\": ""
+        }
+    }
+}
